@@ -60,7 +60,7 @@ The project integrates **statistical analysis, interactive visualization, and ma
 
 ### **Input**
 
-* Raw dataset (`diabetes_final_standardized.csv`)
+* Raw dataset (`Raw_data\diabetes_dataset.csv`)
 * Variables: demographic, lifestyle, biometric, and family medical history data
 
 ### **Process**
@@ -294,7 +294,7 @@ Communicate findings effectively to non-technical audiences using intuitive visu
 
 
 * **Code Quality & Optimization:** Mention vectorization, modular function design, and use of docstrings/comments.
-* **Reproducibility:** Include a note that you’ve used a `requirements.txt` or `pyproject.toml` file and fixed random seeds.
+* **Reproducibility:** Include a note that you’ve used a `requirements.txt` file and fixed random seeds.
 
 ---
 
@@ -353,28 +353,42 @@ Communicate findings effectively to non-technical audiences using intuitive visu
 
 * **Implementation & Maintenance Plan:** Expand roadmap to include update frequency, retraining schedule, and evaluation checkpoints.
 * **Reflection Section:** Summarize challenges faced (data quality, computational load) and future improvements.
-* **Experimentation/Adaptation:** Mention exploration of alternative tools (e.g., Streamlit, Power BI, Dash comparison).
+* **Experimentation/Adaptation:** Mention exploration of alternative tools (Power BI )
 * **Professional Growth:** Note key learning outcomes or next-skill targets.
 
 ---
 
 ## 🧱 Power BI / Dashboard UX (LO39–047)
 
-*(You mentioned Power BI, but the matrix expects Streamlit-style implementation — add only if applicable)*
+Sure! Here's a revised version of your section with all explanations tailored to **Power BI** instead of Streamlit:
 
-* State management (`st.session_state`), `.streamlit/config.toml`, responsive layout, accessibility compliance, and navigation structure.
+---
+
+## 🧱 Power BI / Dashboard UX (LO39–047)
+
+*(You mentioned Power BI, so the matrix should reflect Power BI-specific implementation details — remove Streamlit references unless explicitly needed)*
+
+- **State management**: Power BI handles state implicitly through slicers, filters, bookmarks, and drill-through actions. Use **sync slicers** and **persistent filters** to maintain user context across pages.
+- **Configuration**: Instead of `.streamlit/config.toml`, Power BI uses **report settings** and **theme JSON files** to control layout, colors, and behavior. Customize via the **View > Themes** panel or import a custom theme.
+- **Responsive layout**: Use **responsive visuals**, **mobile layout view**, and **container groups** to ensure dashboards adapt across devices. Avoid fixed-size visuals unless necessary.
+- **Accessibility compliance**: Enable **accessible visuals**, use **alt text**, ensure **keyboard navigation**, and follow **color contrast best practices**. Power BI supports **screen readers** and **high contrast mode**.
+- **Navigation structure**: Design intuitive **page tabs**, **buttons with bookmarks**, and **tooltips** to guide users. Use **navigation panes** or **custom menus** for multi-page reports.
+
+
+## 🧪 Testing, QA, and Deployment (LO63–071)
+
+Absolutely! Here's the revised version tailored specifically for **Power BI** workflows:
 
 ---
 
 ## 🧪 Testing, QA, and Deployment (LO63–071)
 
-* **Data Validation Tests:** Describe schema checks, duplicates, or range validations.
-* **Model Validation:** Mention train/validation/test split strategy.
-* **Performance Testing:** Note that large dataset stress-testing was performed (already partly mentioned).
-* **Deployment Instructions:** Include explicit “Run Instructions” section with environment setup and how to launch notebook/dashboard.
-* **Hosting:** If deployed, add Streamlit or Power BI public link and screenshot.
+- **Data Validation Tests:** Document schema checks, duplicate detection, null handling, and range validations performed in Power Query or during ETL. Use **Power BI Dataflows** or **Power Query Editor** to enforce data integrity before loading into the model.
+- **Model Validation:** If using machine learning externally (e.g., Python integration), describe train/validation/test split strategy. Otherwise, focus on validating **DAX measures**, **relationships**, and **filter logic** to ensure accurate aggregations and calculations.
+- **Performance Testing:** Note any **large dataset stress-testing** using **Performance Analyzer**, **query diagnostics**, or **aggregations**. Mention optimizations like **star schema modeling**, **column reduction**, and **efficient visuals**.
+- **Deployment Instructions:** Include a “Run Instructions” section detailing how to open the `.pbix` file, refresh data sources, and publish to Power BI Service. Specify required gateways, credentials, and workspace setup.
+- **Hosting:** If deployed, include the **Power BI Service link**, workspace name, and a screenshot of the published dashboard. Mention whether it's shared via **app**, **workspace**, or **public embed** (if applicable).
 
----
 
 ## 💼 Business Value (LO85–086)
 
