@@ -81,6 +81,7 @@ The project integrates **statistical analysis, interactive visualization, and ma
    
 I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
 
+![alt text](image-4.png) 
 
 📊 Chart 1: Age vs BMI Category
 Title: Linear Regression: Age vs BMI Category
@@ -99,6 +100,8 @@ This may reflect lifestyle or metabolic shifts in younger populations, though th
 
 The confidence interval is relatively wide, indicating low predictive strength.
 
+![alt text](image-5.png)
+
 📊 Chart 2: Diet Score vs BMI Category
 Title: Linear Regression: Diet Score vs BMI Category
 
@@ -113,6 +116,8 @@ The regression line slopes downward, showing a negative association: individuals
 This aligns with nutritional science — healthier diets are associated with lower obesity risk.
 
 The confidence interval is tighter than in the age plot, indicating moderate predictive strength.
+
+![alt text](image-6.png) 
 
 📊 Chart 3: Glucose Ratio vs BMI Category
 Title: Linear Regression: Glucose Ratio vs BMI Category
