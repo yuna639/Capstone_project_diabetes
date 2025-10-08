@@ -463,7 +463,7 @@ You should **add or expand** the following sections to make your README fully al
 
 ## 🧭 Ethical Considerations
 
-* Dataset fully **anonymized**
+* Dataset fully ('Process_data\diabetes_final_standardized.csv')
 * **GDPR-compliant** data handling
 * Awareness of **biases in BMI-based risk assessments**
 * Recommendations are **non-clinical** and **supplement professional advice**
