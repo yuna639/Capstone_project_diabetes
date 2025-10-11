@@ -81,24 +81,27 @@ The project integrates **statistical analysis, interactive visualization, and ma
    
 I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
 
-![Diagnosed Diabetes](./images/diagnosed_diabetes.png)
+## 📊 Visualizations
 
-![Charges vs BMI](./images/charges_vs_bmi.png)
+## 📊 Visualizations
 
-![Charges vs Heart Rate](./images/charges_vs_heart_rate.png)
+![Diagnosed Diabetes](images/diagnosed_diabetes.png)
 
-![Charges vs Insulin](./images/charges_vs_insulin.png)
+![Charges vs BMI](images/charges_vs_bmi.png)
 
-![Charges vs Physical Activities](./images/charges_vs_physical_activities.png)
+![Charges vs Heart Rate](images/charges_vs_heart_rate.png)
 
-![Total Charges vs Glucose](./images/total_charges_vs_glucose.png)
+![Charges vs Insulin](images/charges_vs_insulin.png)
 
-![Total Charges vs Income Level](./images/total_charges_vs_income_level.png)
+![Charges vs Physical Activities](images/charges_vs_physical_activities.png)
 
-![Total Charges vs Smoking Status](./images/total_charges_vs_smoking_status.png)
+![Total Charges vs Glucose](images/total_charges_vs_glucose.png)
 
-![Triglycerides](./images/triglycerides.png)
+![Total Charges vs Income Level](images/total_charges_vs_income_level.png)
 
+![Total Charges vs Smoking Status](images/total_charges_vs_smoking_status.png)
+
+![Triglycerides](images/triglycerides.png)
 
 
 📊  (Age vs BMI Category)
