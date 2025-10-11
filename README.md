@@ -104,71 +104,60 @@ I have used **linear regression** to model the relationship between a predictor 
 ![Triglycerides](images/triglycerides.png)
 
 
-📊  (Age vs BMI Category)
-Title: Linear Regression: Age vs BMI Category
-
-X-axis: age
-
-Y-axis: bmi_category_code (numeric code: 0 = Normal, 1 = Overweight, 2 = Obese)
-
-Observations:
-
-The scatter plot shows three horizontal bands representing BMI categories.
-
-The red regression line has a slight negative slope, suggesting that younger individuals tend to fall into higher BMI categories.
-
-This may reflect lifestyle or metabolic shifts in younger populations, though the trend is weak.
-
-The confidence interval is relatively wide, indicating low predictive strength.
 
 
-📊  (Diet Score vs BMI Category)
-Title: Linear Regression: Diet Score vs BMI Category
+## 🎓 Linear Regression Analysis of Diabetes Risk Factors
 
-X-axis: diet_score (higher values indicate healthier diets)
+### 📌 Objective  
+To explore how health and lifestyle variables influence total medical charges, using linear regression to uncover statistically significant relationships and interpret their implications for diabetes risk profiling.
 
-Y-axis: bmi_category_code
+---
 
-Observations:
+## 📊 Analytical Findings
 
-The regression line slopes downward, showing a negative association: individuals with higher diet scores are more likely to be in lower BMI categories.
+Each regression model below explores the relationship between a predictor variable and total medical charges.
 
-This aligns with nutritional science — healthier diets are associated with lower obesity risk.
+| Variable                        | Slope   | R²    | p-value | Insight |
+|--------------------------------|---------|-------|---------|---------|
+| **Diagnosed Diabetes**         | 587.67  | 0.35  | 0       | Strong cost driver; diagnosed patients incur higher charges |
+| **BMI**                        | 40.19   | 0.09  | 0       | Weak positive correlation; higher BMI slightly increases charges |
+| **Heart Rate**                 | 1.11    | 0.00  | 1.27e-09| Statistically significant but practically negligible |
+| **Insulin Level**              | 21.71   | 0.05  | 0       | Weak positive correlation; may reflect treatment intensity |
+| **Physical Activity Minutes**  | -1.48   | 0.07  | 0       | More activity linked to lower charges; preventive effect |
+| **Glucose Fasting**            | 14.83   | 0.17  | 0       | Moderate correlation; elevated glucose increases charges |
+| **Income Level**               | -52.43  | 0.01  | 0       | Slight negative correlation; higher income linked to lower charges |
+| **Smoking Status**             | 201.07  | 0.11  | 0       | Significant cost driver; smoking increases healthcare burden |
+| **Triglycerides**              | 3.07    | 0.08  | 0       | Weak positive correlation; may reflect metabolic risk |
 
-The confidence interval is tighter than in the age plot, indicating moderate predictive strength.
+---
 
+## 🧠 What I Learned as a Junior Data Analyst
 
+### 🔬 Technical Skills
+- Built and interpreted linear regression models using Python and health datasets.
+- Learned to evaluate model performance using slope, R², and p-values.
+- Created clear, stakeholder-ready visualizations with regression overlays.
 
-📊 (Glucose Ratio vs BMI Category)
-Title: Linear Regression: Glucose Ratio vs BMI Category
+### 🧠 Analytical Thinking
+- Differentiated between statistical significance and practical relevance.
+- Discovered how multiple variables interact to influence healthcare costs.
+- Recognized the importance of socioeconomic factors in health outcomes.
 
-X-axis: glucose_ratio (postprandial / fasting glucose)
+### 🗣️ Communication & Storytelling
+- Translated complex statistical findings into accessible insights.
+- Structured dashboards and reports for both technical and non-technical audiences.
+- Used narrative summaries to guide stakeholders through the data journey.
 
-Y-axis: bmi_category_code
+### 🚀 Professional Growth
+- Gained confidence in handling large datasets and building reproducible analyses.
+- Developed curiosity for classification models and time-series forecasting.
+- Embraced ethical responsibility when interpreting sensitive health data.
 
-Observations:
+---
 
-The regression line slopes upward, indicating a positive association: higher glucose ratios are linked to higher BMI categories.
+## 🏁 Conclusion
 
-This supports the metabolic connection between obesity and impaired glucose regulation.
-
-The clustering is clear, and the confidence interval is reasonably narrow — suggesting stronger predictive value than age or diet score.
-
-🔍 Comparative Analysis
-Chart	Predictor Variable	Association with BMI Category	Type of Variable	Strength of Insight
-1	Age	Slight Negative	Continuous	Weak
-2	Diet Score	Negative	Continuous	Moderate
-3	Glucose Ratio	Positive	Continuous	Strong
-🧠 Key Takeaways
-Glucose ratio shows the strongest linear relationship with BMI category, reinforcing its role in metabolic profiling.
-
-Diet score provides a meaningful inverse trend, supporting its use in preventive modeling.
-
-Age, while relevant, shows a weak and noisy association — suggesting it may be more useful in interaction terms or nonlinear models.
-
-All predictors are continuous, making them suitable for linear regression visualization — but for classification tasks, ordinal regression or decision trees may yield better performance.
-
-The use of bmi_category_code enables trend visualization across discrete BMI groups, but interpretation should remain cautious due to the ordinal nature of the target.
+This capstone project was a turning point in my development as a data analyst. It taught me how to combine statistical rigor with real-world relevance, and how to communicate insights that matter. I now feel equipped to contribute meaningfully to health analytics initiatives and continue growing in this field.
 
 ---
    ## 📊 Evaluation using MSE and R²
