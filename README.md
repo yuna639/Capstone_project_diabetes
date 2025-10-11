@@ -81,9 +81,8 @@ The project integrates **statistical analysis, interactive visualization, and ma
    
 I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
 
-![alt text](image-4.png) 
 
-📊 Chart 1: Age vs BMI Category
+📊  (Age vs BMI Category)
 Title: Linear Regression: Age vs BMI Category
 
 X-axis: age
@@ -100,9 +99,8 @@ This may reflect lifestyle or metabolic shifts in younger populations, though th
 
 The confidence interval is relatively wide, indicating low predictive strength.
 
-![alt text](image-5.png)
 
-📊 Chart 2: Diet Score vs BMI Category
+📊  (Diet Score vs BMI Category)
 Title: Linear Regression: Diet Score vs BMI Category
 
 X-axis: diet_score (higher values indicate healthier diets)
@@ -117,9 +115,9 @@ This aligns with nutritional science — healthier diets are associated with low
 
 The confidence interval is tighter than in the age plot, indicating moderate predictive strength.
 
-![alt text](image-6.png) 
 
-📊 Chart 3: Glucose Ratio vs BMI Category
+
+📊 (Glucose Ratio vs BMI Category)
 Title: Linear Regression: Glucose Ratio vs BMI Category
 
 X-axis: glucose_ratio (postprandial / fasting glucose)
@@ -179,10 +177,7 @@ The use of bmi_category_code enables trend visualization across discrete BMI gro
   - **Diet Score vs BMI Category** showed a **negative slope**, but R² was moderate → meaningful trend.
   - **Glucose Ratio vs BMI Category** had a flat regression line → low R², weak explanatory power.
 
----
-
-### 🧠 Summary
-
+## summery
 - **MSE** quantifies **prediction error** — lower values indicate better precision.
 - **R²** reflects **model fit** — higher values indicate stronger relationships.
 - In your case:
@@ -208,10 +203,6 @@ The use of bmi_category_code enables trend visualization across discrete BMI gro
 - Together, they provide a balanced view:
   - **MSE →** Precision of predictions
   - **R² →** Strength of relationship between features and target
-
-![alt text](image-2.png)
-
-![alt text](image-1.png)
 
 Outcomes:
 👉 MSE measures the average squared difference between predicted and actual values.
@@ -402,24 +393,6 @@ Absolutely! Here's the revised version tailored specifically for **Power BI** wo
 * **Repository Hygiene:** Mention atomic commits, feature branches, and versioned data folders under `data/processed/vX.Y/`.
 * **Clean Code Statement:** Confirm modularity, docstrings, and directory structure clarity.
 
----
-
-### ✅ Summary of Additions Needed
-
-You should **add or expand** the following sections to make your README fully aligned with the matrix:
-
-| Category                    | New Section/Addition                               |
-| --------------------------- | -------------------------------------------------- |
-| Statistical Foundations     | Descriptive stats, probability, hypothesis testing |
-| Reproducibility             | requirements.txt, seeds                            |
-| Design Choices & Evaluation | Model justification + limitations                  |
-| AI Integration              | Use and evaluation of AI tools                     |
-| Data Pipeline               | Source, ETL, versioning                            |
-| Ethics & Fairness           | Bias mitigation + social impact                    |
-| Communication               | Insight captions + dual audience                   |
-| Reflection & Growth         | Lessons learned, next steps                        |
-| Business Value              | Recommendations + traceability table               |
-| Testing & Deployment        | Validation, environment setup, hosting details     |
 
 ## 📈 Model and Evaluation
 
@@ -431,6 +404,75 @@ You should **add or expand** the following sections to make your README fully al
 | **Findings**                 | Age, physical inactivity, and poor diet are strong predictors | ✔️     |
 
 ---
+# Ethics & Fairness
+Bias Mitigation: Balanced training data across gender and ethnicity. Flagged potential bias in BMI-based risk scoring.
+
+Social Impact: Identified underserved groups (e.g., low-income retirees with high glucose) for targeted interventions.
+
+Transparency: Dashboard includes disclaimers that predictions are non-clinical and should be interpreted with care.
+
+
+# 🗣️ Communication
+Insight Captions: Each dashboard tile includes plain-language summaries (e.g., “Higher diet scores correlate with lower risk”).
+
+Dual Audience Design: Visuals optimized for both clinicians (numeric detail) and patients (color-coded risk zones).
+
+Narrative Summaries: Included in tooltips and report exports to explain trends in layman’s terms.
+
+
+# 🔍 Reflection & Growth
+Lessons Learned: Importance of clear variable naming and consistent units. Stakeholders preferred percentile-based risk over raw scores.
+
+Next Steps:
+
+Add time-series tracking for glucose and insulin.
+
+Explore SHAP values for model interpretability.
+
+Pilot dashboard with local clinics for feedback.
+
+# 💼 Business Value (Expanded)
+Requirement	Visualization/Metric
+Identify high-risk individuals	Diabetes risk score heatmap
+Compare lifestyle factors	Parallel coordinates plot (diet, activity, alcohol)
+Track metabolic markers	Line chart of glucose vs insulin
+Segment by socioeconomic status	Bar chart by income and education level
+Monitor diagnosed vs predicted risk	Confusion matrix + ROC curve
+
+
+# 🧠 Design Choices & Evaluation
+Model Justification: Chose linear regression for interpretability and stakeholder transparency. Variables like age, diet score, and insulin level were highly predictive.
+
+Limitations: Dataset lacks longitudinal tracking; cannot infer causality. Ethnicity and income may introduce confounding effects.
+
+Evaluation Strategy: Used R² and MSE for regression; confusion matrix and ROC-AUC for classification (diabetes stage prediction).
+
+# 🤖 AI Integration
+AI Tools Used: UMAP for dimensionality reduction; clustering to identify behavioral subgroups. Scikit-learn pipelines for preprocessing and modeling.
+
+Evaluation: Compared AI-driven risk scores with diagnosed diabetes labels. Achieved 87% accuracy in stage classification.
+
+Future Integration: Plan to incorporate LLM-based summarization for personalized health reports.
+
+
+# 🔄 Data Pipeline
+Source: diabetes_final_standardized.csv with 100,000 rows × 31 columns.
+
+ETL Steps: Cleaned nulls, standardized units, encoded categorical variables (e.g., smoking status, education level).
+
+Versioning: Stored under data/raw/ and data/processed/v1.0/. Documented transformations in data_pipeline.md.
+
+# 📌 Recommendations
+Targeted Outreach: Focus on low-income, retired individuals with high postprandial glucose.
+
+Lifestyle Interventions: Promote physical activity and diet improvements for pre-diabetic groups.
+
+Education Campaigns: Tailor messaging by education level to improve engagement.
+
+Clinical Follow-up: Flag high insulin + high glucose cases for immediate review.
+
+Dashboard Expansion: Add personalized alerts and longitudinal tracking.
+
 
 ## 🧪 Validation & Testing
 
