@@ -1,7 +1,7 @@
 
 ![alt text](image-3.png)
 
-CAPSTONE PROJECT (2025)
+# CAPSTONE PROJECT (2025)
 
 # 🩺 Diabetes Health Analytics Dashboard
 
@@ -80,8 +80,6 @@ The project integrates **statistical analysis, interactive visualization, and ma
    ## 📊 Linear Regression to predict BMI (proxy for diabetes risk)
    
 I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
-
-## 📊 Visualizations
 
 ## 📊 Visualizations
 
@@ -359,13 +357,6 @@ Communicate findings effectively to non-technical audiences using intuitive visu
 * **Experimentation/Adaptation:** Mention exploration of alternative tools (Power BI )
 * **Professional Growth:** Note key learning outcomes or next-skill targets.
 
----
-
-## 🧱 Power BI / Dashboard UX (LO39–047)
-
-Sure! Here's a revised version of your section with all explanations tailored to **Power BI** instead of Streamlit:
-
----
 
 ## 🧱 Power BI / Dashboard UX (LO39–047)
 
