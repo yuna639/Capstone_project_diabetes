@@ -81,25 +81,23 @@ The project integrates **statistical analysis, interactive visualization, and ma
    
 I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
 
+charges_vs bmi.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۳-۱۹.jpg
+charges_vs heart rate.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۴-۰۸.jpg
+charges_vs Insulin.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۴-۵۴.jpg
+charges_vs phisical activities.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۶-۲۴.jpg
+diagnosed_Diabetes.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۷-۱۱.jpg
+total_charges_vs glucose.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۸-۱۰.jpg
+total_charges_vs income level.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۸-۵۴.jpg
+total_charges_vs_smoking status.jpg
 
-photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۹-۳۲.jpg
-
-photo_2025-10-11_11-20-16.jpg
-
+triglycerides.jpg
 
 📊  (Age vs BMI Category)
 Title: Linear Regression: Age vs BMI Category
