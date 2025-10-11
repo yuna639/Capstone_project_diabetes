@@ -82,6 +82,25 @@ The project integrates **statistical analysis, interactive visualization, and ma
 I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
 
 
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۳-۱۹.jpg
+
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۴-۰۸.jpg
+
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۴-۵۴.jpg
+
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۶-۲۴.jpg
+
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۷-۱۱.jpg
+
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۸-۱۰.jpg
+
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۸-۵۴.jpg
+
+photo_۲۰۲۵-۱۰-۱۱_۱۱-۱۹-۳۲.jpg
+
+photo_2025-10-11_11-20-16.jpg
+
+
 📊  (Age vs BMI Category)
 Title: Linear Regression: Age vs BMI Category
 
@@ -263,6 +282,7 @@ Communicate findings effectively to non-technical audiences using intuitive visu
 ---
 
 ## 📊 Advanced Visualizations 
+
 
 | Visualization                          | Description                                                           | Tool                          |
 | -------------------------------------- | --------------------------------------------------------------------- | ----------------------------- |
