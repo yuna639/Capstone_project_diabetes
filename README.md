@@ -81,9 +81,7 @@ The project integrates **statistical analysis, interactive visualization, and ma
 
 ---
 3. **Modeling**
-
-   ## 📊 Linear Regression to predict BMI (proxy for diabetes risk)
-   
+  
 ## 📊 General Overview of the Linear Regression Models
 Each chart presents a simple linear regression model analyzing the relationship between a single independent variable (e.g., BMI, glucose level, smoking status) and the dependent variable Total Charges. These models aim to quantify how changes in a health-related or demographic factor are associated with changes in healthcare costs.
 
