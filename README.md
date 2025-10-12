@@ -3,8 +3,9 @@
 
 # CAPSTONE PROJECT (2025)
 
+-----------------------------------------------------------------------------------------------------------------
 # 🩺 Diabetes Health Analytics Dashboard
-
+-----------------------------------------------------------------------------------------------------------------
 ## 📘 Overview
 
 The **Diabetes Health Analytics Dashboard** is a **Python-powered AI and data analytics tool** designed to explore, visualize, and model the relationships between health, lifestyle, and diabetes risk factors.
@@ -27,6 +28,7 @@ The project integrates **statistical analysis, interactive visualization, and ma
 | **Source**        | https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset                                                             |
 | **Preprocessing** | Standardization for continuous variables and one-hot encoding for categorical variables |
 
+---
 ### Key Features
 
 * **Continuous Variables:**
@@ -63,6 +65,7 @@ The project integrates **statistical analysis, interactive visualization, and ma
 * Raw dataset (`Raw_data\diabetes_dataset.csv`)
 * Variables: demographic, lifestyle, biometric, and family medical history data
 
+---
 ### **Process**
 
 1. **Data Preprocessing**
@@ -75,13 +78,14 @@ The project integrates **statistical analysis, interactive visualization, and ma
 
    * Visual correlation, clustering, and pattern recognition
 
+
+---
 3. **Modeling**
 
    ## 📊 Linear Regression to predict BMI (proxy for diabetes risk)
    
 I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
 
-## 📊 Visualizations
 
 ![Diagnosed Diabetes](images/diagnosed_diabetes.png)
 
@@ -103,7 +107,7 @@ I have used **linear regression** to model the relationship between a predictor 
 
 
 
-
+---
 ## 🎓 Linear Regression Analysis of Diabetes Risk Factors
 
 ### 📌 Objective  
@@ -131,36 +135,31 @@ Each regression model below explores the relationship between a predictor variab
 
 ## 🧠 What I Learned as a Junior Data Analyst
 
+---
 ### 🔬 Technical Skills
 - Built and interpreted linear regression models using Python and health datasets.
 - Learned to evaluate model performance using slope, R², and p-values.
 - Created clear, stakeholder-ready visualizations with regression overlays.
 
+---
 ### 🧠 Analytical Thinking
 - Differentiated between statistical significance and practical relevance.
 - Discovered how multiple variables interact to influence healthcare costs.
 - Recognized the importance of socioeconomic factors in health outcomes.
 
+---
 ### 🗣️ Communication & Storytelling
 - Translated complex statistical findings into accessible insights.
 - Structured dashboards and reports for both technical and non-technical audiences.
 - Used narrative summaries to guide stakeholders through the data journey.
 
+---
 ### 🚀 Professional Growth
 - Gained confidence in handling large datasets and building reproducible analyses.
 - Developed curiosity for classification models and time-series forecasting.
 - Embraced ethical responsibility when interpreting sensitive health data.
-
----
-
-## 🏁 Conclusion
-
-This capstone project was a turning point in my development as a data analyst. It taught me how to combine statistical rigor with real-world relevance, and how to communicate insights that matter. I now feel equipped to contribute meaningfully to health analytics initiatives and continue growing in this field.
-
 ---
    ## 📊 Evaluation using MSE and R²
-
-
 ### 🔹 **MSE** – *Mean Squared Error*
 
 - Measures the **average squared difference** between predicted and actual values.
@@ -195,7 +194,7 @@ This capstone project was a turning point in my development as a data analyst. I
 - These metrics help you evaluate whether linear regression is appropriate — and when to consider alternatives like **ordinal regression**, **decision trees**, or **logistic models** for categorical targets.
 
 
-
+---
 ## 📐 Summary: Mathematical Insights
 
 | **Metric** | **Formula** | **Goal** | **Interpretation** |
@@ -219,50 +218,7 @@ Lower MSE → better model performance.
 👉 R² measures how much of the variance in the target variable is explained by the model.
 <0: model performs worse than a horizontal mean line
 
-4. **Dashboard with power BI Visualization**
-Dashboard capstone project.pbix
-
-   * Interactive dashboards for filtering and insight generation
-* Business Requirements about the dashboard.
-The goal of this project is to support public health stakeholders, analysts, and decision-makers by providing interactive dashboards that:
-
-Visualize key health indicators (e.g. BMI, glucose, physical activity, smoking, alcohol use) and their relationship to diabetes risk.
-
-Enable demographic filtering to explore disparities across age, gender, race/ethnicity, income, education, and marital status.
-
-Identify high-risk groups based on lifestyle and biometric factors.
-
-Support evidence-based interventions by highlighting modifiable risk factors.
-
-Ensure data transparency through visual summaries of missing/invalid data and robust filtering options.
-
-* Hypotheses about dashboard 
-This analysis is guided by the following hypotheses:
-
-Higher BMI and glucose levels are positively associated with diabetes risk.
-
-Individuals with lower physical activity and higher alcohol consumption show elevated BMI and diabetes prevalence.
-
-Smoking history is correlated with poorer general and mental health outcomes.
-
-Demographic factors such as age, income level, and education influence both lifestyle behaviors and diabetes risk.
-
-There are identifiable clusters of individuals with multiple overlapping risk factors (e.g. obesity, hypertension, smoking).
-
-🎯 Expected Outcomes
-By exploring the dashboards, stakeholders should be able to:
-
-Identify key predictors of diabetes across different population segments.
-
-Visualize correlations between lifestyle behaviors and biometric indicators.
-
-Detect patterns of comorbidity (e.g. obesity + hypertension + diabetes).
-
-Prioritize intervention strategies for high-risk groups based on data insights.
-
-Communicate findings effectively to non-technical audiences using intuitive visuals and filters.
-
-
+---
 ### **Output**
 
 * **Interactive visual dashboard**
@@ -282,6 +238,7 @@ Communicate findings effectively to non-technical audiences using intuitive visu
 | **Parallel Coordinates Plot**          | Visualizes patterns across multiple risk factors                      | Pandas `parallel_coordinates` |
 | **Regression Analysis**                | Predicts BMI from activity, diet, and age                             | Seaborn `regplot` / `lmplot`  |
 
+---
 ## 🧮 Statistical Foundations (LO1)
 
 * **Descriptive Statistics Section:** Include Markdown examples or screenshots in the README (mean, median, mode, variance, std dev, percentiles).
@@ -292,7 +249,6 @@ Communicate findings effectively to non-technical audiences using intuitive visu
 ---
 
 ## 🐍 Python and Reproducibility (LO2)
-
 
 * **Code Quality & Optimization:** Mention vectorization, modular function design, and use of docstrings/comments.
 * **Reproducibility:** Include a note that you’ve used a `requirements.txt` file and fixed random seeds.
@@ -357,24 +313,51 @@ Communicate findings effectively to non-technical audiences using intuitive visu
 * **Experimentation/Adaptation:** Mention exploration of alternative tools (Power BI )
 * **Professional Growth:** Note key learning outcomes or next-skill targets.
 
+---
+## 🧱**Dashboard with power BI Visualization**
+Dashboard capstone project.pbix
 
-## 🧱 Power BI / Dashboard UX (LO39–047)
+   * Interactive dashboards for filtering and insight generation
+* Business Requirements about the dashboard.
+The goal of this project is to support public health stakeholders, analysts, and decision-makers by providing interactive dashboards that:
 
-*(You mentioned Power BI, so the matrix should reflect Power BI-specific implementation details — remove Streamlit references unless explicitly needed)*
+Visualize key health indicators (e.g. BMI, glucose, physical activity, smoking, alcohol use) and their relationship to diabetes risk.
 
-- **State management**: Power BI handles state implicitly through slicers, filters, bookmarks, and drill-through actions. Use **sync slicers** and **persistent filters** to maintain user context across pages.
-- **Configuration**: Instead of `.streamlit/config.toml`, Power BI uses **report settings** and **theme JSON files** to control layout, colors, and behavior. Customize via the **View > Themes** panel or import a custom theme.
-- **Responsive layout**: Use **responsive visuals**, **mobile layout view**, and **container groups** to ensure dashboards adapt across devices. Avoid fixed-size visuals unless necessary.
-- **Accessibility compliance**: Enable **accessible visuals**, use **alt text**, ensure **keyboard navigation**, and follow **color contrast best practices**. Power BI supports **screen readers** and **high contrast mode**.
-- **Navigation structure**: Design intuitive **page tabs**, **buttons with bookmarks**, and **tooltips** to guide users. Use **navigation panes** or **custom menus** for multi-page reports.
+Enable demographic filtering to explore disparities across age, gender, race/ethnicity, income, education, and marital status.
 
+Identify high-risk groups based on lifestyle and biometric factors.
 
-## 🧪 Testing, QA, and Deployment (LO63–071)
+Support evidence-based interventions by highlighting modifiable risk factors.
 
-Absolutely! Here's the revised version tailored specifically for **Power BI** workflows:
+Ensure data transparency through visual summaries of missing/invalid data and robust filtering options.
+
+* Hypotheses about dashboard 
+This analysis is guided by the following hypotheses:
+
+Higher BMI and glucose levels are positively associated with diabetes risk.
+
+Individuals with lower physical activity and higher alcohol consumption show elevated BMI and diabetes prevalence.
+
+Smoking history is correlated with poorer general and mental health outcomes.
+
+Demographic factors such as age, income level, and education influence both lifestyle behaviors and diabetes risk.
+
+There are identifiable clusters of individuals with multiple overlapping risk factors (e.g. obesity, hypertension, smoking).
+
+🎯 Expected Outcomes
+By exploring the dashboards, stakeholders should be able to:
+
+Identify key predictors of diabetes across different population segments.
+
+Visualize correlations between lifestyle behaviors and biometric indicators.
+
+Detect patterns of comorbidity (e.g. obesity + hypertension + diabetes).
+
+Prioritize intervention strategies for high-risk groups based on data insights.
+
+Communicate findings effectively to non-technical audiences using intuitive visuals and filters.
 
 ---
-
 ## 🧪 Testing, QA, and Deployment (LO63–071)
 
 - **Data Validation Tests:** Document schema checks, duplicate detection, null handling, and range validations performed in Power Query or during ETL. Use **Power BI Dataflows** or **Power Query Editor** to enforce data integrity before loading into the model.
@@ -382,7 +365,6 @@ Absolutely! Here's the revised version tailored specifically for **Power BI** wo
 - **Performance Testing:** Note any **large dataset stress-testing** using **Performance Analyzer**, **query diagnostics**, or **aggregations**. Mention optimizations like **star schema modeling**, **column reduction**, and **efficient visuals**.
 - **Deployment Instructions:** Include a “Run Instructions” section detailing how to open the `.pbix` file, refresh data sources, and publish to Power BI Service. Specify required gateways, credentials, and workspace setup.
 - **Hosting:** If deployed, include the **Power BI Service link**, workspace name, and a screenshot of the published dashboard. Mention whether it's shared via **app**, **workspace**, or **public embed** (if applicable).
-
 
 ## 💼 Business Value (LO85–086)
 
@@ -396,7 +378,7 @@ Absolutely! Here's the revised version tailored specifically for **Power BI** wo
 * **Repository Hygiene:** Mention atomic commits, feature branches, and versioned data folders under `data/processed/vX.Y/`.
 * **Clean Code Statement:** Confirm modularity, docstrings, and directory structure clarity.
 
-
+---
 ## 📈 Model and Evaluation
 
 | Metric                       | Description                                                   | Result |
@@ -414,7 +396,7 @@ Social Impact: Identified underserved groups (e.g., low-income retirees with hig
 
 Transparency: Dashboard includes disclaimers that predictions are non-clinical and should be interpreted with care.
 
-
+---
 # 🗣️ Communication
 Insight Captions: Each dashboard tile includes plain-language summaries (e.g., “Higher diet scores correlate with lower risk”).
 
@@ -422,7 +404,7 @@ Dual Audience Design: Visuals optimized for both clinicians (numeric detail) and
 
 Narrative Summaries: Included in tooltips and report exports to explain trends in layman’s terms.
 
-
+---
 # 🔍 Reflection & Growth
 Lessons Learned: Importance of clear variable naming and consistent units. Stakeholders preferred percentile-based risk over raw scores.
 
@@ -434,6 +416,7 @@ Explore SHAP values for model interpretability.
 
 Pilot dashboard with local clinics for feedback.
 
+---
 # 💼 Business Value (Expanded)
 Requirement	Visualization/Metric
 Identify high-risk individuals	Diabetes risk score heatmap
@@ -442,7 +425,7 @@ Track metabolic markers	Line chart of glucose vs insulin
 Segment by socioeconomic status	Bar chart by income and education level
 Monitor diagnosed vs predicted risk	Confusion matrix + ROC curve
 
-
+---
 # 🧠 Design Choices & Evaluation
 Model Justification: Chose linear regression for interpretability and stakeholder transparency. Variables like age, diet score, and insulin level were highly predictive.
 
@@ -450,6 +433,7 @@ Limitations: Dataset lacks longitudinal tracking; cannot infer causality. Ethnic
 
 Evaluation Strategy: Used R² and MSE for regression; confusion matrix and ROC-AUC for classification (diabetes stage prediction).
 
+---
 # 🤖 AI Integration
 AI Tools Used: UMAP for dimensionality reduction; clustering to identify behavioral subgroups. Scikit-learn pipelines for preprocessing and modeling.
 
@@ -457,7 +441,7 @@ Evaluation: Compared AI-driven risk scores with diagnosed diabetes labels. Achie
 
 Future Integration: Plan to incorporate LLM-based summarization for personalized health reports.
 
-
+---
 # 🔄 Data Pipeline
 Source: diabetes_final_standardized.csv with 100,000 rows × 31 columns.
 
@@ -465,6 +449,7 @@ ETL Steps: Cleaned nulls, standardized units, encoded categorical variables (e.g
 
 Versioning: Stored under data/raw/ and data/processed/v1.0/. Documented transformations in data_pipeline.md.
 
+---
 # 📌 Recommendations
 Targeted Outreach: Focus on low-income, retired individuals with high postprandial glucose.
 
@@ -476,7 +461,7 @@ Clinical Follow-up: Flag high insulin + high glucose cases for immediate review.
 
 Dashboard Expansion: Add personalized alerts and longitudinal tracking.
 
-
+---
 ## 🧪 Validation & Testing
 
 * Checked and imputed missing data
@@ -542,10 +527,9 @@ Dashboard Expansion: Add personalized alerts and longitudinal tracking.
 4. [UMAP-learn Documentation](https://umap-learn.readthedocs.io/en/latest/)
 
 ---
-
 ## 🏁 Conclusion
 
 The **Diabetes Health Analytics Dashboard** demonstrates how **data analytics and AI** can empower healthcare decision-making.
 Through **interactive dashboards**, **statistical validation**, and **predictive modeling**, this project provides actionable insights into diabetes and cardiovascular risk factors.
-
 By combining **ethical data governance**, **transparent visualization**, and **user-focused design**, it serves as a foundation for future **AI-driven health analytics platforms**.
+This capstone project was a turning point in my development as a data analyst. It taught me how to combine statistical rigor with real-world relevance, and how to communicate insights that matter. I now feel equipped to contribute meaningfully to health analytics initiatives and continue growing in this field.
