@@ -84,8 +84,8 @@ The project integrates **statistical analysis, interactive visualization, and ma
 
    ## 📊 Linear Regression to predict BMI (proxy for diabetes risk)
    
-I have used **linear regression** to model the relationship between a predictor variable and the binary outcome of being classified as **obese (1)** or **not obese (0)** based on BMI.
-
+## 📊 General Overview of the Linear Regression Models
+Each chart presents a simple linear regression model analyzing the relationship between a single independent variable (e.g., BMI, glucose level, smoking status) and the dependent variable Total Charges. These models aim to quantify how changes in a health-related or demographic factor are associated with changes in healthcare costs.
 
 ![Diagnosed Diabetes](images/diagnosed_diabetes.png)
 
